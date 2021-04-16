@@ -16,14 +16,14 @@ class PickupType implements NodeInterface
     const PKT_AIR_SERVICECENTER = '20';
 
     /** @deprecated */
-    public $Code = self::PKT_DAILY;
+    public $Code = self::PKT_CUSTOMERCOUNTER;
     /** @deprecated */
     public $Description;
 
     /**
      * @var string
      */
-    private $code = self::PKT_DAILY;
+    private $code = self::PKT_CUSTOMERCOUNTER;
 
     /**
      * @var string
